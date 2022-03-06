@@ -4,6 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import CustomComponent from './src/screens/customComponents';
 import FlatDemo from './src/screens/FlatDemo';
 import Images from './src/screens/image';
+import Buttons from './src/screens/Buttons';
+import NetflixCard from './src/component/NetflixCard';
 
 export default function App() {
   const ali = 23;
@@ -14,7 +16,9 @@ export default function App() {
       <Text>my app.js {ali}</Text> */}
       {/* <CustomComponent /> */}
       {/* <FlatDemo /> */}
-      <Images />
+      {/* <Buttons /> */}
+      {/* <Images /> */}
+      <NetflixCard />
       {/* <StatusBar style="auto" /> */}
     </View>
   );
@@ -24,7 +28,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    // alignItems: 'center',
     justifyContent: 'center',
   },
   textStyle: {

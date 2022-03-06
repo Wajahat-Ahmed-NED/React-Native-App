@@ -44,9 +44,9 @@ const styles = StyleSheet.create({
                 color: "white"
 
         },
-        listStyle: {
-                textAlign: "center",
-                margin: 20,
-                padding: 10,
-        }
+        // listStyle: {
+        //         textAlign: "center",
+        //         margin: 20,
+        //         padding: 10,
+        // }
 })
