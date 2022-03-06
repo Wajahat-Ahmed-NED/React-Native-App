@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
                 // border: '2px solid black',
                 display: 'flex',
                 justifyContent: 'center',
-                aligntItems: 'center',
+                // aligntItems: 'center',
                 paddingHorizontal: 30
         },
         imageStyle: {
